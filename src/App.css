@@ -35,10 +35,12 @@
     background:
     linear-gradient(90deg, #122045 50%, rgb(176, 167, 204) 100%)
 }
-/* 
+
 @media(max-width:440px){
     .footer{
+        background:
+        linear-gradient(90deg, #122045 100%, rgb(176, 167, 204) 100%);
         padding-right: 2.1rem;
         margin-bottom: 0;
     }
-} */
+}

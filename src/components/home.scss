@@ -1,6 +1,9 @@
+.backColor {
+  background: linear-gradient(90deg, #122045 70%, rgba(222, 212, 255, 1) 100%);
+}
+
 
 .home-page{
-  // background-color: #333;
   padding: 9.5rem;
 }
 .home-page {
@@ -137,6 +140,12 @@
 
    
   @media(max-width:440px){
+    .backColor {
+      background: linear-gradient(90deg, #122045 1000%, rgba(222, 212, 255, 1) 100%);
+    }
+    .home-page{
+      padding-bottom: 0;
+    }
 .logo-img{
   display: none;
 }
@@ -154,7 +163,7 @@
         // top: 50%;
         transform: translateY(-35%);
         // width: 75%;
-        // max-height: 90%;
+        // max-height: 10%;
       }
     }
     span {

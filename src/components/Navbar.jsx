@@ -1,41 +1,65 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./navbar.scss";
 
 const Navbar = (props) => {
-    return (
-            <nav className="navbar navbar-expand-lg  navbar-dark bg-dark shadow ">
-    <NavLink className="navbar-brand fw-bolder fs-4 mx-auto" to="/">DevAace</NavLink>
-  <div className="container">
-    
-    <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
+  return (
+    <nav className="navbar navbar-expand-lg  navbar-dark bg-dark shadow ">
+      <NavLink className="navbar-brand fw-bolder fs-4 mx-auto mob" to="/">
+        DevAace
+      </NavLink>
+      <div className="container">
+        <button
+          className="navbar-toggler "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span
+            className="navbar-toggler-icon"
+            style={{ fontSize: "1rem" }}
+          ></span>
+        </button>
 
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/ourstory">Our Story</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/service">Services</NavLink>
-        </li>
-        
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/team">Team</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/about">About</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to="/contact">Contact</NavLink>
-        </li>
-      </ul>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink className="nav-link active" aria-current="page" to="/">
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/ourstory">
+                Our Story
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/service">
+                Services
+              </NavLink>
+            </li>
 
-      {/* {props.auth ?
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/team">
+                Team
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/about">
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/contact">
+                Contact
+              </NavLink>
+            </li>
+          </ul>
+
+          {/* {props.auth ?
       <>
       <NavLink to="/login" className="btn btn-outline-light ms-auto px-4 rounded-pill">
          <i className="fa fa-sign-in me-2"></i>Login</NavLink>
@@ -51,10 +75,10 @@ const Navbar = (props) => {
       <i className="fa fa-sign-out me-2"></i>Logout</NavLink>
       </>
 } */}
-    </div>
-  </div>
-</nav>
-    );
-}
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;

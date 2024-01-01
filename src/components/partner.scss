@@ -1,0 +1,53 @@
+.mob {
+    font-size: 60px;
+    animation: fadeIn 1s 1s backwards;
+}
+
+.right-Text {
+    font-size: 18px;
+}
+
+.right-text-margin {
+    margin-left: 3rem;
+}
+
+.mob-text {
+    display: none;
+}
+
+/* Add the following styles for mobile view */
+@media (max-width: 767px) {
+    .right-text-margin {
+        text-align: center;
+    }
+
+    .mob {
+        font-size: 36px;
+    }
+
+    .right-Text {
+        text-align: left;
+    }
+
+    /* Adjust the spacing or styling as needed */
+}
+
+@media(max-width:440px) {
+
+
+    .mobileView {
+        display: none;
+    }
+
+    .right-text-margin {
+        padding-top: 2rem;
+        margin-left: 0;
+    }
+
+    .mob-text {
+        display: block;
+        font-size: 36px;
+        margin-bottom: 2rem;
+    }
+
+}

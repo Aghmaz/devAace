@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer text-white" >
+      <footer className="footer text-white">
         <div className="container">
           <footer className="pt-5">
             <div className="row">
@@ -76,12 +76,14 @@ const Footer = () => {
 
               <div className="col-4 offset-1">
                 <form>
-                <h5>Feel Free to contact us</h5>
+                  <h5>Feel Free to contact us</h5>
                   {/* <h5>Subscribe to our newsletter</h5> */}
                   {/* <p>Monthly digest of whats new and exciting from us.</p> */}
                   <p>Let us know if you have any project.</p>
-                  <div className="d-flex w-75 ">
-                <button  className="btn btn-outline-light rounded-pill px-4">Send Message <i className="fa fa-paper-plane ms-2"></i></button>
+                  <div className="d-flex w-75">
+                    <button className="btn btn-outline-light rounded-pill px-4">
+                      Send Message <i className="fa fa-paper-plane ms-2"></i>
+                    </button>
 
                     {/* <label htmlFor="newsletter1" className="visually-hidden">
                       Email address

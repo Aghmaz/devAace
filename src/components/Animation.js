@@ -74,11 +74,11 @@ const Home = () => {
   return (
     <>
       <div
-        style={{
-          // background: "#122045",
-          background:
-            "linear-gradient(90deg, #122045 50%, rgba(222, 212, 255, 1) 100%)",
-        }}
+        className="backColor"
+        // style={{
+        //   background:
+        //     "linear-gradient(90deg, #122045 50%, rgba(222, 212, 255, 1) 100%)",
+        // }}
       >
         <div className="container home-page">
           <div className="text-zone">

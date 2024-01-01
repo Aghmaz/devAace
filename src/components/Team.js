@@ -45,6 +45,28 @@ const teamMembers = [
     ],
     imgSrc: "/assets/about1.jpg",
   },
+  {
+    name: "Fahad Hussain",
+    role: "Software Engineer",
+    experience: "3 years",
+    socialIcons: [
+      { iconClass: "fab fa-facebook-f", link: "#" },
+      { iconClass: "fab fa-twitter", link: "#" },
+      { iconClass: "fab fa-linkedin-in", link: "#" },
+    ],
+    imgSrc: "/assets/about1.jpg",
+  },
+  {
+    name: "Ali Hassan",
+    role: "Q/A",
+    experience: "2 years",
+    socialIcons: [
+      { iconClass: "fab fa-facebook-f", link: "#" },
+      { iconClass: "fab fa-twitter", link: "#" },
+      { iconClass: "fab fa-linkedin-in", link: "#" },
+    ],
+    imgSrc: "/assets/about1.jpg",
+  },
   // Add more team members here
 ];
 
@@ -53,7 +75,7 @@ const Team = () => {
     <div className="container">
       <div className="row p-2">
         {teamMembers.map((member, index) => (
-          <div key={index} className="col-md-4 col-sm-6 col-lg-3">
+          <div key={index} className="col-lg-4 col-md-2 col-sm-6 mt-3 ">
             <div className="our-team">
               <div className="team-image">
                 <img src={member.imgSrc} alt={`Team Member ${index + 1}`} />

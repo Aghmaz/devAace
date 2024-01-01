@@ -1,12 +1,12 @@
 import React from "react";
 import story from "../assets/images/leftimg.jpg";
-
+import "./partner.scss";
 const OurStory = () => {
   return (
     <section className="py-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className=" col-md-5 text-center ">
+          <div className=" col-lg-5 text-center">
             <div
               style={{
                 position: "relative",
@@ -33,10 +33,14 @@ const OurStory = () => {
               />
             </div>
           </div>
-          <div className="col-md-6 ms-5 ">
+          <div className="col-lg-6 right-text-margin">
+            <span className="mob-text">
+              Let Us Be Your Next <br />
+              Preferred IT Partner
+            </span>
             <h1
-              style={{ fontSize: "60px", animation: "fadeIn 1s 1s backwards" }}
-              className="  mb-4"
+              // style={{ fontSize: "60px", animation: "fadeIn 1s 1s backwards" }}
+              className="mob mb-4"
             >
               Let Us Be Your Next <br />
               Preferred IT Partner
@@ -44,31 +48,31 @@ const OurStory = () => {
 
             <ul className="list-unstyled">
               <li>
-                <h2 style={{ fontSize: "18px" }}>
-                  <i className="fa fa-check text-success me-2"></i> We are
+                <h2 className="right-Text">
+                  <i className="fa fa-check text-success me-2 "></i> We are
                   committed to providing quality IT Services
                 </h2>
               </li>
               <li>
-                <h2 style={{ fontSize: "18px" }}>
+                <h2 className="right-Text">
                   <i className="fa fa-check text-success me-2"></i> Our benefits
                   are endless for local IT Companies & Startups{" "}
                 </h2>
               </li>
               <li>
-                <h2 style={{ fontSize: "18px" }}>
+                <h2 className="right-Text">
                   <i className="fa fa-check text-success me-2"></i> Really know
                   the true needs and expectations of customers{" "}
                 </h2>
               </li>
               <li>
-                <h2 style={{ fontSize: "18px" }}>
+                <h2 className="right-Text">
                   <i className="fa fa-check text-success me-2"></i> Talented &
                   experienced management solutions for IT{" "}
                 </h2>
               </li>
               <li>
-                <h2 style={{ fontSize: "18px" }}>
+                <h2 className="right-Text">
                   <i className="fa fa-check text-success me-2"></i> Processes of
                   achieving the excellence and continue{" "}
                 </h2>
