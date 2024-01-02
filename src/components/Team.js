@@ -58,7 +58,7 @@ const teamMembers = [
   },
   {
     name: "Ali Hassan",
-    role: "Q/A",
+    role: "Q/A & Seo",
     experience: "2 years",
     socialIcons: [
       { iconClass: "fab fa-facebook-f", link: "#" },

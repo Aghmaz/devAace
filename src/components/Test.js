@@ -28,7 +28,7 @@ const Test = () => {
 
       <SixD />
       <hr style={{ marginTop: "5rem" }} className="w-25 mx-auto" />
-      {/* <About /> */}
+      <About />
       <hr style={{ marginTop: "5rem" }} className="w-25 mx-auto" />
       <WhyWork />
 

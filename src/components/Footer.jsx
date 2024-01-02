@@ -12,7 +12,7 @@ const Footer = () => {
                 <h4>DevAace</h4>
               </div>
 
-              <div className="col-2">
+              <div className="col-4">
                 <h5>Section</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
@@ -43,7 +43,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-2">
+              {/* <div className="col-2">
                 <h5>Section</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2">
@@ -72,7 +72,7 @@ const Footer = () => {
                     </NavLink>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               <div className="col-4 offset-1">
                 <form>

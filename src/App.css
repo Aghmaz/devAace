@@ -33,7 +33,7 @@
     /* background: rgb(8, 12, 17);
     background: linear-gradient(90deg, rgb(19, 19, 19) 40%, rgb(44, 46, 46) 100%); */
     background:
-    linear-gradient(90deg, #122045 50%, rgb(176, 167, 204) 100%)
+    linear-gradient(90deg, #122045 75%, rgb(176, 167, 204) 100%)
 }
 
 @media(max-width:440px){
