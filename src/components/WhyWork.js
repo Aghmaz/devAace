@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyWork = () => {
   return (
-    <section className="  ps-5 pr-5">
+    <section className="mt-5  ps-lg-5 pr-lg-5">
       <div style={{ marginTop: "-2.8rem" }} className="container text-center ">
         <h1 className=" mb-5">Why Work With Us</h1>
         <div className="row justify-content-center ">

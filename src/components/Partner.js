@@ -3,7 +3,7 @@ import story from "../assets/images/leftimg.jpg";
 import "./partner.scss";
 const OurStory = () => {
   return (
-    <section className="py-5">
+    <section className="py-lg-5">
       <div className="container">
         <div className="row align-items-center">
           <div className=" col-lg-5 text-center">

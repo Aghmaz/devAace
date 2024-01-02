@@ -42,7 +42,7 @@ const SixD = () => {
 
   return (
     <div style={{ marginTop: "-2rem" }} className="container-fluid pb-5 ">
-      <div className="container ps-5 pr-5">
+      <div className="container ps-lg-5 pr-lg-5">
         <h1 className="display-6 text-center mb-5">Our 6-D Process</h1>
         <div className="row">
           {processSteps.map((step) => (
